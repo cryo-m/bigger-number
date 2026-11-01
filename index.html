@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Лабораторна робота 8</title>
+</head>
+<body>
+    <h1 class="result-title">&nbsp</h1>
+
+    <div class="main-container">
+        <div class="card player">
+            <div class="icon-container">
+                <img src="img/player.png" alt="Гравець" class="avatar">
+            </div>
+            <div class="label"  id="playerName">Гравець</div>
+            <div class="number-box" id="player-score">0</div>
+        </div>
+
+        <button class="action-btn" onclick="generateNumbers()">Грати</button>
+
+        <div class="card bot">
+            <div class="icon-container">
+                <img src="img/bot.png" alt="Комп'ютер" class="avatar">
+            </div>
+            <div class="label">Комп'ютер</div>
+            <div class="number-box" id="bot-score">0</div>
+        </div>
+    </div>
+</body>
+</html>
